@@ -138,7 +138,7 @@ var MinecraftMap;
             if (!('MapRange' in this))
                 this.MapRange = MinecraftMap.cMapRangeDefault;
             if (!('Title' in this))
-                this.Title = 'Map of the Overworld';
+                this.Title = 'Map of the World';
             if (!('Blurb' in this))
                 this.Blurb = 'Use up/down or mousewheel to zoom, drag to scroll';
             if (!('CustomIconsUri' in this))
