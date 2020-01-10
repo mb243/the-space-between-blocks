@@ -782,7 +782,7 @@ var MinecraftMap;
                 newArea.target = hrefAndTarget.target;
                 includeArea = true;
             }
-            var htmlString = generateHtmlLabel(location, config.ShowCoordinates && !config.DisableCoordinates);
+            var htmlString = generateHtmlLabel(location, this.ShowCoordinates && !this.DisableCoordinates);
             if (htmlString.length > 0) {
                 $(newArea).mouseover(CreateHandler_mouseover(htmlString));
                 $(newArea).mouseout(Handle_mouseout);
