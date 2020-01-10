@@ -1,20 +1,4 @@
-// This example map is taken from a real server with some names and 
-// image-links changed to hide the innocent.
-//
-// Real data helps show how messy a map gets - why zoom is needed, and 
-// how labels sometimes still need a little formatting.
-
-
-// Map settings:
-// =============
-range = 6400
-
-
-// Map locations:
-// ==============
-//
-// Format:
-// Type        , x    ,  z    , Description     , Owner     , href      , IconIndex
+Type        , x    ,  z    , Description     , Owner     , href      , IconIndex
 
 Forest         ,-934  , -4676 , LeaDassassin's forest, LeaDassassin, , 27                             
 Forest         ,-1700 , -700  , "Dark oak forest" ,                , http://minecraft.gamepedia.com/Roofed_forest , 27 
@@ -23,7 +7,6 @@ Forest         , 1268 , -2410 , "Fairy forest"    , "ecchymotic & aeduna", -
 FlowerForest   , 2146 ,  4144
 FlowerForest   , 4800 ,	-1500
 
-// Two flower forests and about 5 herds of horses on the same island!
 FlowerForest   , 4275 , -2813 , ~Flower forests on Equine Island~
 Horse          , 4250 , -2500 , "~Equine Island~", "~Black horses, other horses, donkeys, and lots of flowers~" 
 IslandOverlay  , 4250 , -2500 , "Equine Island"
@@ -110,8 +93,6 @@ NetherPortal    , 512  ,  1024 , ~Portal to the Nether (Click to travel)~ ,,_sel
 NetherPortal    ,   0  , -3002 , ~Portal to the Nether (Click to travel)~ ,,_self_?src=example_nether.txt&x=0&z=-375
 SeaMonster      ,  -400,  -350
 
-
-// The following are some fake locations because I don't know where all the monuments on this server are
 SeaMonster      ,  2700,  2600 
 SeaMonster      ,  2000,  2200
 SeaMonster      , -1000,  1100  
