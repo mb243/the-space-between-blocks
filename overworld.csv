@@ -4,3 +4,4 @@ PlayerStructure,-54,2387,Mine entrance,JumpiestRug94,,
 PlayerHouse,-50,2400,Forest House,JumpiestRug94,,
 Label,600,-3675,Pillager Outpost,,https://minecraft.gamepedia.com/Pillager_outpost,21
 NetherPortal,0,0,~Nether Portal~,,_self_?src=nether.csv,
+NetherPortal,1000,1000,~Nether Portal~,,_self_?src=nether.csv,
