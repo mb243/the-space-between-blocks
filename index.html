@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html>
+<!-- 
+  theme2.html is the same as index.html except it displays the ShadedBay background theme
+  instead of the superflat background theme.
+-->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
@@ -37,7 +41,7 @@ head.load(
 <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body style="background-image:url('img/superflat.png'); background-size: cover; background-repeat: no-repeat; font-family: sans-serif;">
+<body style="background-image:url('img/shadedbay.jpg'); background-size: cover; background-repeat: no-repeat; font-family: sans-serif;">
 
 <center>
 <h1 id="mainTitle">Map of the Overworld</h1>
@@ -71,7 +75,6 @@ head.load(
 		<div id="zoomlevel2" class="level" ></div>
 		<div id="zoomlevel3" class="level" ></div>
 		<div id="zoomlevel4" class="level" ></div>
-		<div id="zoomlevel5" class="level" ></div>
 	  </div>
 	</div>
 </main>
@@ -114,7 +117,7 @@ head.ready(
 				// Everything has loaded, which means the background image is loaded. Update
 				// the background colour so that screens taller than the background texture
 				// are still the right colour at the bottom.
-				$('body').css({ 'background-color': 'rgb(77,100,47)' }); // superflat.png background colour
+				$('body').css({ 'background-color': 'rgb(255,254,186)' }); // shadedbay.jpg background colour
 
 				// =================
 				// This line lets you set the URL where this page will try to load the locations file
@@ -122,7 +125,7 @@ head.ready(
 				// i.e. if you wish to specify a src URL in this html file instead of as a ?src= parameter
 				// then uncomment the SetDefaultSrc() line below:
 				// =================
-				MinecraftMap.SetDefaultSrc('overworld.csv');
+				// MinecraftMap.SetDefaultSrc('default.txt');
 
 				MinecraftMap.getSettingsAndMapLocations(
 					head.screen.width,
@@ -141,8 +144,7 @@ head.ready(
 									{divName: "zoomlevel1", width:  390, height:  390},
 									{divName: "zoomlevel2", width:  708, height:  708},
 									{divName: "zoomlevel3", width: 1253, height: 1253},
-									{divName: "zoomlevel4", width: 2236, height: 2236},   // 2236 x 2236 is the largest img ipad hardware can handle (5 megapixels)
-									{divName: "zoomlevel5", width: 2700, height: 2700}
+									{divName: "zoomlevel4", width: 2236, height: 2236}   // 2236 x 2236 is the largest img ipad hardware can handle (5 megapixels)
 								],
 								finishedRendering
 							);
@@ -157,8 +159,7 @@ head.ready(
 									{divName: "zoomlevel1", width:  630, height:  630},
 									{divName: "zoomlevel2", width:  960, height:  960},
 									{divName: "zoomlevel3", width: 1440, height: 1440},
-									{divName: "zoomlevel4", width: 2236, height: 2236},   // 2236 x 2236 is the largest img ipad hardware can handle (5 megapixels)
-									{divName: "zoomlevel5", width: 2700, height: 2700}
+									{divName: "zoomlevel4", width: 2236, height: 2236}   // 2236 x 2236 is the largest img ipad hardware can handle (5 megapixels)
 								],
 								finishedRendering
 							);
@@ -171,8 +172,7 @@ head.ready(
 									{divName: "zoomlevel1", width:  800, height:  800},
 									{divName: "zoomlevel2", width: 1200, height: 1200},
 									{divName: "zoomlevel3", width: 1800, height: 1800},
-									{divName: "zoomlevel4", width: 2700, height: 2700},
-									{divName: "zoomlevel5", width: 4050, height: 4050}
+									{divName: "zoomlevel4", width: 2700, height: 2700}
 								],
 								finishedRendering
 							);
