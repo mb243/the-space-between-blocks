@@ -1857,7 +1857,7 @@ var MinecraftMap;
 (function (MinecraftMap) {
     "use strict";
     // Constants
-    MinecraftMap.cMapRangeDefault = 3200; // measured in minecraft blocks from the center. (Since the map we use for the background is 64 pixels wide, a range of 3200 gives map squares of a nice round scale of 100)
+    MinecraftMap.cMapRangeDefault = 6400; // measured in minecraft blocks from the center. (Since the map we use for the background is 64 pixels wide, a range of 3200 gives map squares of a nice round scale of 100)
     MinecraftMap.cClickRadius = 12; // How far from the center of the icon is clickable
     MinecraftMap.cCaptionSpacer_vertical = 8; // How far under the bottom of the icon should the text be drawn. The canvas textBaseline is "alphabetic", so cCaptionSpacer_vertical should be set to roughly the ascent of the font.
     MinecraftMap.cLabel_DontDrawChar = '~'; // Designates labels that shouldn't be drawn on the map. The tilde is illegal in a Minecraft name, so should make a good character to enclose labels with.
