@@ -1,3 +1,3 @@
 Type,x,z, Description,Owner,href,IconIndex                                                                
-NetherPortal,0,0,~Portal to the Overworld~,,_self_?src=overworld.csv,
-NetherPortal,125,125,~Nether Portal~,,_self_?src=overworld.csv,
+NetherPortal,0,0,~Portal to the Overworld~,,index.html,
+NetherPortal,125,125,~Nether Portal~,,index.html,

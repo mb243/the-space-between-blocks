@@ -44,7 +44,7 @@ head.load(
 <body style="background-image:url('img/shadedbay.jpg'); background-size: cover; background-repeat: no-repeat; font-family: sans-serif;">
 
 <center>
-<h1 id="mainTitle">Map of the Overworld</h1>
+<h1 id="mainTitle">Map of the Nether</h1>
 
 <p id="tagline">Use up/down or mousewheel to zoom, drag to scroll</p>
 </center>
@@ -97,7 +97,6 @@ head.load(
 <div class="resources" style="position: absolute; visibility: hidden;">
 	<img id="map-background" src="img/map64.png"/>
 	<img id="map-tileset" src="img/glyphs.png"/>
-	<img id="oceanmask" src="overworld-ocean.png"/>
 </div>
 
 <script type="text/javascript">
@@ -126,7 +125,7 @@ head.ready(
 				// i.e. if you wish to specify a src URL in this html file instead of as a ?src= parameter
 				// then uncomment the SetDefaultSrc() line below:
 				// =================
-				MinecraftMap.SetDefaultSrc('overworld.csv');
+				MinecraftMap.SetDefaultSrc('nether.csv');
 
 				MinecraftMap.getSettingsAndMapLocations(
 					head.screen.width,
