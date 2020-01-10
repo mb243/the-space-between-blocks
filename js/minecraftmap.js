@@ -152,7 +152,7 @@ var MinecraftMap;
             if (!('ShowScale' in this))
                 this.ShowScale = true;
             if (!('ShowCoordinates' in this))
-                this.ShowCoordinates = false;
+                this.ShowCoordinates = true;
             if (!('DisableCoordinates' in this))
                 this.DisableCoordinates = false;
             if (!('OceanTheme' in this))
