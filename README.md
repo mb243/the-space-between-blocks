@@ -1,16 +1,15 @@
-# the-space-between-blocks-map
+# README.md
 
-An interactive, user-supplied map of The Space Between Blocks Minecraft server
+This repo hosts an interactive, user-supplied map of The Space Between Blocks Minecraft server, powered by [The Ink & Parchment Map](https://github.com/Treer/minecraft-map).
 
-Based on https://github.com/Treer/minecraft-map
+## Data files
 
-The following files contain map data:
+The following files contain map data, and players are invited to create pull requests to add, edit, and update data:
 
 - [overworld.csv](overworld.csv) - The overworld
 - [nether.csv](nether.csv) - The nether
 
-Coordinates can be displayed by adding `&showcoordinates=true` to the end of the URL
+For information on the format of these files, including icon information, see http://buildingwithblocks.info/#LocationListFormat
 
-An ocean map can be added to the overworld by adding `&oceansrc=oceans.png` to the end of the URL
+An ocean map for the overworld is available, and can be shown on the map by adding `&oceansrc=overworld-ocean.png` to the end of the URL.
 
-For information on the format of these files, see http://buildingwithblocks.info/#LocationListFormat
