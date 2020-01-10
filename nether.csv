@@ -1,6 +1,3 @@
-range = 800
-title = Map of the Nether
-showorigin = false
 Type,x,z, Description,Owner,href,IconIndex                                                                
 PlayerStructure,20,20,Railway switch,,,11
 NetherFortress,-300,-200,,,,
