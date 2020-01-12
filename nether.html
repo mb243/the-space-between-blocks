@@ -92,7 +92,7 @@ head.load(
 <div class="credittext" style="position:absolute; bottom: 5px; right: 5px;">
 	<!-- Take advantage of this tiny text to include the fonts in the document
 		 so that $(document).ready() isn't triggered before they are loaded. -->
-	<a href="http://buildwithblocks.info">create your own Ink &amp; Parchment Map</a>
+	<!-- <a href="http://buildwithblocks.info">create your own Ink &amp; Parchment Map</a> -->
 </div>
 <div class="resources" style="position: absolute; visibility: hidden;">
 	<img id="map-background" src="img/map64.png"/>
@@ -108,7 +108,7 @@ head.ready(
 		$('#poster-print-href').attr('href','poster_print.html' + location.search);
 
 		// If you don't want the print icon to be shown on the map page, comment out the following line:
-		$('#poster-print-href').show();
+		//$('#poster-print-href').show();
 
 		$(window).load(
 			function() {
