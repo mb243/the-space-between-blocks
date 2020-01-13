@@ -16,3 +16,5 @@ Label,-22,2176,Zombie spawner,,,2
 Label,-26,2191,Spider spawner,,,2
 Label,514,-2077,Skeleton spawner,,,2
 Label,-45,2173,Zombie spawner,,,2
+NetherPortal,1888,-14,~Nether Portal~,,nether.html?x=235&z=8,
+Label,1752,12,Skeleton spawner,,,2
