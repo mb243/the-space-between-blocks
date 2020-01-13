@@ -1,11 +1,10 @@
 Type,x,z,Description,Owner,href,IconIndex
 Spawn,1060,30,Spawn,,,41
-PlayerStructure,-54,2387,Mine entrance and bed,JumpiestRug94,,
-PlayerHouse,-50,2400,Forest house,JumpiestRug94,,
+PlayerStructure,-54,2387,Mine entrance and bed,,,
+PlayerHouse,-50,2400,Forest house,,,
 Label,600,-3675,Pillager Outpost,,https://minecraft.gamepedia.com/Pillager_outpost,21
 NetherPortal,0,0,~Nether Portal~,,nether.html?x=0&z=0,
 NetherPortal,1000,1000,~Nether Portal~,,nether.html?x=128&z=128,
-Village,112,2218,Village,,,
 PlayerStructure,46,2207,Boat dock and farms,JumpiestRug94,,
 Village,128,2182,Village,JumpiestRug94,,
 NetherPortal,-59,2433,~Nether Portal~,,nether.html?x=-11&z=309,
@@ -13,3 +12,7 @@ NetherPortal,548,-2242,~Nether Portal~,,nether.html?x=68&z=-286,
 PlayerStructure,530,-2277,Mushroom Village,,,9
 NetherPortal,614,-3737,~Nether Portal~,,nether.html?x=69&z=-467,
 PlayerHouse,578,-3752,Taiga village house,,,
+Label,-22,2176,Zombie spawner,,,2
+Label,-26,2191,Spider spawner,,,2
+Label,514,-2077,Skeleton spawner,,,2
+Label,-45,2173,Zombie spawner,,,2
