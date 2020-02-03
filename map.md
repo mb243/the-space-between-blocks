@@ -9,7 +9,7 @@ layout: default
 
 _Click [here](images/biome_key.png) to view the biome color key._
 
-The following user-contributed points of interest are sourced from [_data/overworld.csv](overworld.csv):
+The following user-contributed points of interest are sourced from [overworld.csv](_data/overworld.csv):
 
 <table>
 {% for row in site.data.overworld %}
