@@ -12,13 +12,14 @@ _Click [here](images/biome_key.png) to view the biome color key._
 The following user-contributed points of interest are sourced from [overworld.csv](_data/overworld.csv):
 
 <table>
+<tr><th>Description</th><th>x</th><th>z</th></tr>
 {% for row in site.data.overworld %}
   <tr>
-      <td> <strong>
+      <td>
       {% if row.href != nil %}<a href="{{ row.href }}">{% endif %}
       {{ row.Description }}
       {% if row.href != nil %}</a>{% endif %}
-      </strong> </td> <td> {{ row.x }} </td> <td> {{ row.z }} </td>
+      </td> <td> {{ row.x }} </td> <td> {{ row.z }} </td>
   </tr>
 {% endfor %}
 </table>
