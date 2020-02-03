@@ -13,7 +13,7 @@ _Click [here](images/biome_key.png) to view the biome color key._
 
 The following are user-contributed points of interest:
 
-## [The Overworld](overworld.csv):
+## [The Overworld](https://github.com/mb243/the-space-between-blocks/blob/master/_data/overworld.csv):
 <table>
 <tr><th>Description</th><th>x</th><th>z</th></tr>
 {% for row in site.data.overworld %}
@@ -27,7 +27,7 @@ The following are user-contributed points of interest:
 {% endfor %}
 </table>
 
-## [The Nether](nether.csv):
+## [The Nether](https://github.com/mb243/the-space-between-blocks/blob/master/_data/nether.csv):
 <table>
 <tr><th>Description</th><th>x</th><th>z</th></tr>
 {% for row in site.data.nether %}
@@ -41,7 +41,7 @@ The following are user-contributed points of interest:
 {% endfor %}
 </table>
 
-## [The End](end.csv):
+## [The End](https://github.com/mb243/the-space-between-blocks/blob/master/_data/end.csv):
 <table>
 <tr><th>Description</th><th>x</th><th>z</th></tr>
 {% for row in site.data.end %}
