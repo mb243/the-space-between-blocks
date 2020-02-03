@@ -9,11 +9,42 @@ layout: default
 
 _Click [here](images/biome_key.png) to view the biome color key._
 
-The following user-contributed points of interest are sourced from [overworld.csv](_data/overworld.csv):
+# Points of Interest
 
+The following are user-contributed points of interest:
+
+## [The Overworld](overworld.csv):
 <table>
 <tr><th>Description</th><th>x</th><th>z</th></tr>
 {% for row in site.data.overworld %}
+  <tr>
+      <td>
+      {% if row.href != nil %}<a href="{{ row.href }}">{% endif %}
+      {{ row.Description }}
+      {% if row.href != nil %}</a>{% endif %}
+      </td> <td> {{ row.x }} </td> <td> {{ row.z }} </td>
+  </tr>
+{% endfor %}
+</table>
+
+## [The Nether](nether.csv):
+<table>
+<tr><th>Description</th><th>x</th><th>z</th></tr>
+{% for row in site.data.nether %}
+  <tr>
+      <td>
+      {% if row.href != nil %}<a href="{{ row.href }}">{% endif %}
+      {{ row.Description }}
+      {% if row.href != nil %}</a>{% endif %}
+      </td> <td> {{ row.x }} </td> <td> {{ row.z }} </td>
+  </tr>
+{% endfor %}
+</table>
+
+## [The End](end.csv):
+<table>
+<tr><th>Description</th><th>x</th><th>z</th></tr>
+{% for row in site.data.end %}
   <tr>
       <td>
       {% if row.href != nil %}<a href="{{ row.href }}">{% endif %}
