@@ -1,3 +1,4 @@
+---
 - heading: Trading Hall
   description: "Trader Moe's"
   x: 1982
@@ -16,8 +17,6 @@
     "Looting": 3
     "Luck of the Sea": 3
     "Lure": 3
-    "Mending": 1
-    "Mending": 1
     "Mending": 1
     "Power": 4
     "Protection": 4
