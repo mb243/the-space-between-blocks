@@ -15,11 +15,11 @@ This is a player-provided list of villages and villager trades. Both natural vil
 **Trades available here**:
 
 <table>
-{% for item in village.trades %}
-<tr>
-<td style="width:50%;">{{ item[0] }}</td>
-<td style="width:50%;">{{ item[1] }}</td>
-</tr>
-{% endfor %}
+    {% for item in village.trades %}
+        <tr>
+        <td style="width:50%;">{{ item[0] }}</td>
+        <td style="width:50%;">{{ item[1] }}</td>
+        </tr>
+    {% endfor %}
 </table>
 {% endfor %}
