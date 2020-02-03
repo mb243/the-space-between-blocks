@@ -27,10 +27,10 @@ url: "https://thespacebetweenblocks.com" # the base hostname & protocol for your
 twitter_username: _MBeach
 github_username:  mb243
 show_downloads: false
-repository: mb243/the-space-between-blocks-map
+repository: mb243/the-space-between-blocks
 github:
   is_project_page: false
-  is_user_page: false
+  is_user_page: true
 
 # Build settings
 theme: jekyll-theme-architect
