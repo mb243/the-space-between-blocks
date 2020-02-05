@@ -1,0 +1,28 @@
+---
+- heading: Trading Hall
+  description: "Trader Moe's"
+  x: 1982
+  y: -14
+  trades:
+    "Aqua Affinity": 1
+    "Blast Protection": 4
+    "Depth Strider": 3
+    "Efficiency": 4
+    "Feather Falling": 4
+    "Fire Protection": 4
+    "Flame": 1
+    "Fortune": 3
+    "Infinity": 1
+    "Looting": 2
+    "Looting": 3
+    "Luck of the Sea": 3
+    "Lure": 3
+    "Mending": 1
+    "Power": 4
+    "Protection": 4
+    "Punch": 2
+    "Respiration": 3
+    "Sharpness": 5
+    "Silk Touch": 1
+    "Thorns": 2
+    "Unbreaking": 3
